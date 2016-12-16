@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.crisis.pruebamapaubicacion.MapsActivity">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/menu"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/botonMenu" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="¿A dónde vas?"
+        android:textSize="14dp"
+        android:id="@+id/editText"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/botonMenu"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+

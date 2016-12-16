@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="AzulClaro">#3F69A0</color>
+    <color name="AzulOscuro">#15488c</color>
+
+    <color name="NaranjaClaro">#f68c41</color>
+    <color name="NaranjaOscuro">#f6812e</color>
+
+    <color name="NegroClaro">#373737</color>
+    <color name="NegroOscuro">#232323</color>
+
+    <color name="BlancoVerdeClaro">#f0f6f8</color>
+    <color name="BlancoVerderOscuro">#ebf3f6</color>
+
+    <color name="GrisClaro">#e9e9e9</color>
+    <color name="GrisOscuro">#e2e2e2</color>
+
+</resources>

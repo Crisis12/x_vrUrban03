@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.crisis.pruebamapaubicacion.Login">
+
+<FrameLayout
+    android:id="@+id/layoutUrban"
+    android:layout_width="wrap_content"
+    android:layout_height="360dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viaja con ürban"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/degradadoazul">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/urbanblanco"
+            android:id="@+id/imageUrban"/>
+    </FrameLayout>
+</FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/layoutCelular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backn"
+            android:id="@+id/btnback"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@color/AzulClaro"
+            android:backgroundTint="@color/AzulClaro">
+
+            <AutoCompleteTextView
+                android:drawableLeft="@drawable/smartphone"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:id="@+id/tvcel"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Ingresa tu número de celular"
+                android:inputType="number"
+                android:maxLines="1"
+                android:backgroundTint="@color/AzulClaro"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <ImageButton
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:id="@+id/btnSig"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"/>
+
+    </FrameLayout>
+
+</LinearLayout>
